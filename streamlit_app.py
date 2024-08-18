@@ -130,7 +130,7 @@ def main():
     
     # Setting page layout
     st.set_page_config(
-        page_title="Figma basics",
+        page_title="AI Chatbot with Email Tooling",
         page_icon="✨",
         layout="centered",
         initial_sidebar_state="expanded"
@@ -138,7 +138,7 @@ def main():
     
     # Sidebar for API Key and User Info
     st.sidebar.header("About App")
-    st.sidebar.markdown('This is an app that uses natural language to send emails from a chatbot created by <a href="https://ai.jdavis.xyz" target="_blank">0xjdavis</a>.', unsafe_allow_html=True)
+    st.sidebar.markdown('This is an app that uses natural language to send emails from a chatbot enabled with function calls created by <a href="https://ai.jdavis.xyz" target="_blank">0xjdavis</a>.', unsafe_allow_html=True)
     
     # Calendly
     st.sidebar.markdown("""
@@ -157,7 +157,7 @@ def main():
     # Copyright
     st.sidebar.caption("©️ Copyright 2024 J. Davis")
 
-    st.title("AI Chatbot with Email Tools")
+    st.title("AI Chatbot with Email Tooling")
     st.write(
         "You need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
         "You will also need to provide a Mailgun API key and domain, which you can get [here](https://mailgun.com). "
