@@ -160,6 +160,7 @@ def main():
     st.title("AI Chatbot with Email Tools")
     st.write(
         "You need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
+        "You will also need to provide a Mailgun API key and domain, which you can get [here](https://mailgun.com). "
     )
 
     openai_api_key = st.text_input("OpenAI API Key", type="password")
